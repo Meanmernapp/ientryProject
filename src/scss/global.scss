@@ -1,0 +1,276 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    color: #146f62;
+    text-transform: uppercase;
+
+    .headLeft {
+        display: flex;
+        align-items: center;
+
+        h2 {
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        i {
+            font-size: 25px;
+            color: #146f62;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+    }
+
+    .filterPopup {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #146f62;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    button {
+        border: none;
+        padding: 7px 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 15rem;
+        border-radius: 5px;
+        background-color: #146f62;
+        color: #fff;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 450;
+        height: 48px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.noItem {
+    text-align: center;
+    width: 80%;
+    margin: 4.5rem auto 0 auto;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 4px #00000099;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    top: -9px !important;
+    font-size: 14px !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 5px !important;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+    box-shadow: 0.4rem 0.4rem 0.4rem #0000001a !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 5px !important;
+    // box-shadow: 0.4rem 0.4rem 0.4rem #0000001a !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 5px !important;
+    // box-shadow: 0.4rem 0.4rem 0.4rem #0000001a !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+        box-shadow: none !important;
+    }
+}
+
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: "Montserrat" !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input:focus {
+    color: #707070;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #707070 !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: "Montserrat" !important;
+}
+
+.Mui-focused {
+    color: #707070 !important;
+}
+
+.form-control {
+    position: relative;
+    background: #fcfcfc 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #00000059;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.input-group-btn {
+    position: absolute;
+    top: 0;
+    right: 2%;
+}
+.tss-58la38-MUIDataTable-paper {
+    box-shadow: none !important;
+    font-family: Montserrat !important;
+
+    .css-rqglhn-MuiTable-root {
+        display: table;
+        width: 99% !important;
+        border-collapse: collapse;
+        border-spacing: 10;
+        margin: auto !important;
+    }
+
+    thead {
+        tr {
+            box-shadow: none !important;
+
+            th {
+                letter-spacing: 0px;
+                color: #65aba0 !important;
+                opacity: 1;
+                border: none;
+                font-weight: 700 !important;
+                padding: 5px 0.75rem;
+                text-align: center;
+                border: none !important;
+            }
+        }
+    }
+
+    .css-1ex1afd-MuiTableCell-root {
+        text-align: center !important;
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: #707070;
+        border-bottom: none !important;
+
+        &:first-child {
+            text-align: left !important;
+        }
+    }
+
+    .tss-tlx3x1-MUIDataTableToolbar-root {
+        margin-top: 41px;
+        position: relative;
+        background: #fcfcfc 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 4px #00000059;
+        border-radius: 4px;
+        opacity: 1;
+        width: 100%;
+        max-width: 100%;
+        // .tss-10rusft-MUIDataTableToolbar-icon{
+        //     display: none;
+        //     &:first-child{
+        //         display: block;
+        //     }
+        // }
+        min-height: auto;
+
+        .tss-qbo1l6-MUIDataTableToolbar-actions {
+            display: flex;
+            flex-direction: row-reverse;
+            font: normal normal 100 16px/19px Montserrat;
+            letter-spacing: 0px;
+            color: #707070;
+        }
+
+        .tss-1h5wt30-MUIDataTableSearch-searchIcon {
+            display: none;
+        }
+
+        .tss-hj53wm-MUIDataTableToolbar-titleText {
+            font: normal normal 100 16px/19px Montserrat;
+            letter-spacing: 0px;
+            color: #707070;
+        }
+    }
+
+    .css-9cgc89-MuiTableFooter-root {
+        tr {
+            box-shadow: none !important;
+        }
+
+        .tss-djbknv-MUIDataTablePagination-navContainer {
+            justify-content: center !important;
+
+            .css-pdct74-MuiTablePagination-selectLabel {
+                display: none;
+            }
+
+            .css-194a1fa-MuiSelect-select-MuiInputBase-input {
+                display: none;
+            }
+
+            .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+                display: none;
+            }
+        }
+
+        .css-levciy-MuiTablePagination-displayedRows {
+            &::before {
+                content: "page ";
+            }
+        }
+    }
+}
+
+.tss-58la38-MUIDataTable-paper .css-1ex1afd-MuiTableCell-root {
+    padding: 0px 12px;
+}
+
+.css-nfmglb-MuiTableCell-root {
+    border: none !important;
+}
+
+.tss-1cdcmys-MUIDataTable-responsiveBase {
+    overflow: unset !important;
+}
+
+.custom_dataTable {
+    .table_title {
+        display: flex;
+        align-items: center;
+        grid-gap: 5px;
+
+        h4 {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 5px;
+            color: #146f62;
+        }
+
+        span {
+            text-align: left;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 15px;
+            text-decoration: underline;
+            letter-spacing: 0px;
+            color: #000000;
+        }
+    }
+}
